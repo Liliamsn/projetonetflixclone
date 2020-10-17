@@ -1,0 +1,42 @@
+SELECT CURDATE() AS 'Data Atual';
+
+SELECT CURRENT_TIME() AS 'Hora Atual';
+
+SELECT DATE_ADD(CURDATE(), INTERVAL 3 DAY) AS 'Data do Vencimento';
+
+SELECT DATE_SUB(CURDATE(), INTERVAL 10 DAY) AS 'Data da Compra';
+
+SELECT DATEDIFF(CURDATE(), DATE_SUB(CURDATE(), INTERVAL 10 DAY)) AS 'Dias de Atraso';
+
+SELECT DATE_FORMAT(CURDATE(), '%d/%m/%Y') AS 'Data Atual';
+
+SELECT DAYNAME(CURDATE()) AS 'Dia da Semana';
+
+SET lc_time_names = 'pt_BR';
+SELECT DAYNAME(CURDATE()) AS 'Dia da Semana';
+
+SELECT DAYOFMONTH(CURDATE()) AS 'Dia do Mês';
+
+SELECT DAYOFWEEK(CURDATE()) AS 'Dia da Semana';
+
+SELECT DAYOFYEAR(CURDATE()) AS 'Dia do Ano';
+
+SELECT FROM_DAYS(785489) AS 'Dia Real';
+
+SELECT NOW();
+
+SELECT DATE_FORMAT(NOW(), '%d/%m/%Y %h:%m:%s') AS 'Data e Hora';
+
+SELECT DATE_FORMAT(CURRENT_TIMESTAMP(), '%d/%m/%Y %h:%m:%s') AS 'Data e Hora Formatada';
+
+SELECT TIME(CURRENT_TIMESTAMP()) AS 'Hora';
+
+SELECT HOUR('18:35:25') AS 'Hora';
+
+SELECT MINUTE('18:35:25') AS 'Minuto';
+
+SELECT SECOND('18:35:25') AS 'Segundos';
+
+SELECT PERIOD_DIFF(202012, 202010) AS 'Meses restantes';
+
+SELECT TIMEDIFF('18:35:12', '18:28:45') AS 'Minutos restantes';
