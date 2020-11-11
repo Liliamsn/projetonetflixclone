@@ -1,9 +1,9 @@
-​	**Projeto - Banco de Dados MySQL**
+Bootcamp - Digital Innovation One
 
+-Recriando a interface do Netflix
 
-
-- Seção03 - Criação, Inserção de dados e Consulta simples
-
-- Junção de Tabelas - Criação, Inserção e Consulta em Múltiplas tabelas
-
-- Data/Hora - Utilização de data e hora
+- Organização dos elementos da interface com o método Flexbox;
+- Utilização de ícones personalizados do Font Awesome;
+- Utilização da Classe Wrapper para envelopamento dos conteúdos e melhor aplicação de estilização no projeto;
+- Utilização da biblioteca JQuery para manipulação de elementos na tela;
+- Aplicação de Media Queries para adequação da tela de acordo com a resolução..
